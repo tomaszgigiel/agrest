@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <Colors>
+      <Color>
+        <Index>3</Index>
+        <RGB>#c0c0c0</RGB>
+      </Color>
+      <Color>
+        <Index>4</Index>
+        <RGB>#ff0000</RGB>
+      </Color>
+    </Colors>
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>9000</WindowHeight>
+    <WindowWidth>13860</WindowWidth>
+    <WindowTopX>240</WindowTopX>
+    <WindowTopY>75</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Default" />
+    <Style ss:ID="Result" ss:Name="Result">
+      <Font ss:Bold="1" ss:Italic="1" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="Result2" ss:Name="Result2">
+      <Font ss:Bold="1" ss:Italic="1" ss:Underline="Single" />
+      <NumberFormat ss:Format="Currency" />
+    </Style>
+    <Style ss:ID="Heading" ss:Name="Heading">
+      <Font ss:Bold="1" ss:Italic="1" ss:Size="16" />
+    </Style>
+    <Style ss:ID="Heading1" ss:Name="Heading1">
+      <Font ss:Bold="1" ss:Italic="1" ss:Size="16" />
+    </Style>
+    <Style ss:ID="co1" />
+    <Style ss:ID="co2" />
+    <Style ss:ID="co3" />
+    <Style ss:ID="ta1" />
+    <Style ss:ID="ce1">
+      <Font ss:FontName="Liberation Sans" ss:VerticalAlign="Subscript" />
+    </Style>
+    <Style ss:ID="ce2">
+      <Font ss:FontName="Liberation Sans" />
+    </Style>
+  </Styles>
+  <ss:Worksheet ss:Name="book">
+    <Table ss:StyleID="ta1">
+      <Column ss:Width="64,0063" />
+      <Column ss:Width="425,1968" />
+      <Column ss:Width="64,0063" />
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="String">id</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">title</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">topic_id</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Clojure in Action</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Joy of Clojure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Programming in Scala</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Functional Programming in Scala</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Odkrywanie właściwości sieci neuronowych przy użyciu programów w języku C#</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Metody i techniki sztucznej inteligencji</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <x:WorksheetOptions />
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="topic">
+    <Table ss:StyleID="ta1">
+      <Column ss:Span="1" ss:Width="64,0063" />
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="String">id</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">topic</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">clojure</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">scala</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANN</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <x:WorksheetOptions />
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="author">
+    <Table ss:StyleID="ta1">
+      <Column ss:Width="64,0063" />
+      <Column ss:Span="1" ss:Width="64,063" />
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="String">id</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">last name</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amit</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rathore</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Francis</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Avila</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Michael</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Fogus</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Chris</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Houser</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Martin</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Odersky</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">6</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Lex</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Spoon</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="8" ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">7</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Bill</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Venners</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paul</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chiusano</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">9</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Runar</Data>
+        </Cell>
+        <Cell ss:StyleID="ce2">
+          <Data ss:Type="String">Bjarnason</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ryszard</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tadeusiewicz</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bartosz</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Leper</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barbara</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Borowik</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">13</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tomasz</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gąciarz</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">14</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Leszek</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rutkowski</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <x:WorksheetOptions />
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="book_author">
+    <Table ss:StyleID="ta1">
+      <Column ss:Span="1" ss:Width="64,0063" />
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="String">id_book</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">id_author</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">6</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="8" ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">7</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">8</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">9</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">10</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">11</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">13</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="12,8126">
+        <Cell>
+          <Data ss:Type="Number">6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">14</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <x:WorksheetOptions />
+  </ss:Worksheet>
+</Workbook>

@@ -5,6 +5,8 @@
 (defn fake-recordset [r c] 
   (repeat r (repeat c (apply str (repeat 5 "qwerty1234567890")))))
 
+(defn row-to-office-xml [r] (str "aaa"))
+
 (defn -main
   "agrest: database multitool"
   [& args]

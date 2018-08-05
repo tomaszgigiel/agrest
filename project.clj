@@ -4,6 +4,7 @@
   :license {:name "Apache License"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/data.xml "0.0.8"]
                  [org.apache.poi/poi "3.17"]
                  [org.apache.poi/poi-ooxml "3.17"]]
   :main ^:skip-aot pl.tomaszgigiel.agrest.core
