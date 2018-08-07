@@ -1,4 +1,4 @@
-(defproject agrest "1.0.0.0"
+(defproject agrest "1.0.0.0-SNAPSHOT"
   :description "agrest: database multitool"
   :url "http://tomaszgigiel.pl"
   :license {:name "Apache License"
