@@ -4,9 +4,6 @@
   (:require [clojure.xml :as xml])
   (:require [pl.tomaszgigiel.agrest.core :as agrest]))
 
-(deftest first-test
-  (is (= 2 2)))
-
 (deftest dataxml-test
   (let [r {:id "1" :name "Jan" :lastname "Abacki"}
         s "<?xml version=\"1.0\" encoding=\"UTF-8\"?><row id=\"1\" name=\"Jan\" lastname=\"Abacki\"></row>"]
