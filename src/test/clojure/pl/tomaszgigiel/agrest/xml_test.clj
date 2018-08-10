@@ -1,8 +1,8 @@
-(ns pl.tomaszgigiel.agrest.core-test
+(ns pl.tomaszgigiel.agrest.xml-test
   (:use [clojure.test])
   (:require [clojure.data.xml :as dataxml])
   (:require [clojure.xml :as xml])
-  (:require [pl.tomaszgigiel.agrest.core :as agrest]))
+  (:require [pl.tomaszgigiel.agrest.xml :as agrest]))
 
 (deftest dataxml-test
   (let [r {:id "1" :name "Jan" :lastname "Abacki"}

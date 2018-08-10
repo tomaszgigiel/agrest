@@ -1,6 +1,7 @@
-(ns pl.tomaszgigiel.agrest.core
+(ns pl.tomaszgigiel.agrest.xml
   (:require [clojure.java.io :as io])
   (:require [clojure.string :as str])
+  (:require [clojure.tools.logging :as log])
   (:require [clojure.xml :as xml])
   (:gen-class))
 
@@ -17,13 +18,11 @@
   (str/replace (str/replace x "\n<" "<") ">\n" ">"))
 
 (defn -main
-  "agrest: database multitool"
+  "agrest: database multitool, xml"
   [& args]
 
   (with-open [w (io/writer (first args) :encoding "UTF-8")]
     (doseq [a (fake-recordset 100000 100)] 
       (.write w (apply str (interpose ", " a)))
       (.newLine w)))
-  (println "ok"))
-
-
+  (log/info "ok (agrest: database multitool, xml)"))
