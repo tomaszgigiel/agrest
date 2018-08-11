@@ -3,7 +3,8 @@
   (:require [pl.tomaszgigiel.agrest.database :as agrest])
   (:require [pl.tomaszgigiel.agrest.database-test-config :as mytest]))
 
-(use-fixtures :once mytest/once-fixture :each mytest/each-fixture)
+(use-fixtures :once mytest/once-fixture)
+(use-fixtures :each mytest/each-fixture)
 
 (deftest databse-test
   (testing "database first" 
