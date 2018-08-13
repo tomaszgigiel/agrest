@@ -16,7 +16,9 @@
                  [org.clojure/java.jdbc "0.7.7"]
                  [org.apache.derby/derby "10.4.2.0"]
                  [org.apache.derby/derbyclient "10.4.2.0"]
-                 [org.apache.derby/derbynet "10.4.2.0"]]
+                 [org.apache.derby/derbynet "10.4.2.0"]
+                 [com.github.kyleburton/clj-xpath "1.4.11"]
+                 [org.clojure/data.zip "0.1.2"]]
 
   :source-paths ["src/main/clojure"]
   :test-paths ["src/test/clojure"]
